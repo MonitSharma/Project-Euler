@@ -41,9 +41,12 @@ $S = n(n+1)/2$
 
 We are looking for a function $f(n)$ that for any $n$ gives the sum of $1^2$ up to $n^2$. Assume it is of the form $f(n) = an^3 + bn^2 + cn + d$, where $a,b,c,d$ are constants that we need to determine.  This we can get by $f(0) = 0$, $f(1) = 1$, $f(2) = 5$ , $f(3) = 14$. This gives us:
 
-$d = 0$ 
-$ a + b + c +d = 1$
+$d = 0$
+
+$a + b + c +d = 1$
+
 $8a + 4b + 2c + d = 5$
+
 $27a + 9b + 3c + d = 14$
 
 Solving this we get:
